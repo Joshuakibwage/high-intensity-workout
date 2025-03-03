@@ -6,7 +6,10 @@
 
 @import "tailwindcss";
 
-
+body {
+  background-color: black;
+  color: white;
+}
 
 
 @theme {
@@ -27,3 +30,10 @@
 
 }
 
+.active {
+  @apply text-primary underline underline-offset-4
+}
+
+.active-button {
+  color: --color-primary;
+}

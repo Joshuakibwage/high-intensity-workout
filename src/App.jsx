@@ -1,8 +1,15 @@
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
  
- 
+
  const App = () => {
    return (
-     <div className="bg-secondary text-8xl font-baby-lonica">Appeabrtzg</div>
+      <>
+        <Navbar />
+        <Outlet />
+        <Footer />
+      </>
    )
  }
  
