@@ -64,8 +64,8 @@ const Navbar = () => {
 
 
   return (
-    <header className="border-b-2 border-primary fixed top-0 left-0 right-0 z-10">
-      <nav className="container mx-auto py-4 justify-between items-center flex">
+    <header className="border-b-2 border-primary  top-0 left-0 right-0 z-10 bg-[#020618]">
+      <nav className="container mx-auto py-4 justify-between items-center flex ">
         {/* logo */}
         <Link to ='/' className="flex flex-col justify-center hover:translate-x-1 delay-200 ease-in-out transition-all">
           <h1 className="font-cursive text-4xl ">
@@ -114,6 +114,7 @@ const Navbar = () => {
       {/* responsive navbar */}
       <ResponsiveMenu 
         nav={nav}
+        toggleNav={toggleNav}
       />
     </header>
   )

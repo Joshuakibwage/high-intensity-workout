@@ -48,7 +48,7 @@ const navLinks = [
   ];
   
 
-const ResponsiveMenu = ({ nav }) => {
+const ResponsiveMenu = ({ nav, toggleNav }) => {
   return (
     <div
       className={`${
@@ -65,12 +65,13 @@ const ResponsiveMenu = ({ nav }) => {
             <h1 className="text-sm text-slate-500">Premium user</h1>
           </div>
         </div>
-        <ul className="hidden md:flex gap-6 items-center">
+        <ul className="flex md:hidden gap-6 flex-col mt-12 ml-6">
           {
             navLinks.map(({id, path, name}) => (
               <li className="text-white uppercase text-sm hover:text-primary transition-all delay-200
-              ease-in-out">
+              ease-in-out font-medium">
                 <NavLink 
+                  onClick={toggleNav}
                   key={id} 
                   to={path}
                   className={({isActive, isPending}) => (
@@ -89,7 +90,7 @@ const ResponsiveMenu = ({ nav }) => {
           <Button 
             label="Log In"
             className="bg-primary hover:bg-primary/80 px-8 py-2 hover:scale-105 delay-200 transition-transform
-            ease-in-out cursor-pointer rounded-md hidden lg:block"/>
+            ease-in-out cursor-pointer rounded-md block lg:hidden"/>
         </ul>
       </div>
       <div className="footer">
