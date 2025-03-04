@@ -1,4 +1,3 @@
-import ProgramCard from "./ProgramCard"
 import { GrYoga } from "react-icons/gr";
 import { GiJumpingRope } from "react-icons/gi";
 import { FaPersonSwimming } from "react-icons/fa6";
@@ -37,7 +36,7 @@ const fitnessActivities = [
 const OurProgram = () => {
   return (
     <section>
-        <div className="container mx-auto py-14 space-y-6">
+        <div className="container mx-auto py-14 space-y-6 px-12 md:px-0">
             <div className="border-l-8 border-primary">
                 <h1 className="text-sm tracking-[0.5rem] text-primary ml-4">Our Program</h1>
                 <p className="text-3xl font-inter font-semibold ml-4 text-gray-300">Build Your Best Body</p>
@@ -48,16 +47,15 @@ const OurProgram = () => {
                     whether you’re focusing on strength, endurance, or overall fitness.
                 </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:mt-12">
                
                {
                 fitnessActivities.map(({id, description, title, icon}) => (
-                    <ProgramCard
-                        key={id}
-                        description={description}
-                        title={title}
-                        icon={icon}
-                    />
+                    <div key={id} className="border-t-1 border-secondary space-y-2">
+                        <p className="pt-10">{icon}</p>
+                        <p className="font-semibold text-gray-300">{title}</p>
+                        <p className="text-sm text-gray-400">{description}</p>
+                    </div>
                 ))
                }
                 
