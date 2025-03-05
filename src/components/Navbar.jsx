@@ -76,11 +76,11 @@ const Navbar = () => {
         {/* nav links */}
         <ul className="hidden md:flex gap-6 items-center">
           {
-            navLinks.map(({id, path, name}) => (
+            navLinks.map(({ path, name}) => (
               <li className="text-white uppercase text-sm hover:text-primary transition-all delay-200
               ease-in-out">
                 <NavLink 
-                  key={id} 
+                  key={name} 
                   to={path}
                   className={({isActive, isPending}) => (
                     isActive

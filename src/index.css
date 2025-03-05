@@ -42,3 +42,9 @@ html {
 .active-button {
   color: --color-primary;
 }
+
+ .clip-path {
+  clip-path: polygon(0 0, 100% 0, 100% 37%, 0 64%);
+  height: 35vh;
+ }
+

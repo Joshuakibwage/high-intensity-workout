@@ -1,8 +1,9 @@
  
 
-const Button = ({label, className}) => {
+const Button = ({label, className, iconURL}) => {
   return (
     <button className={className}>
+      {iconURL}
       {label}
     </button>
   )
