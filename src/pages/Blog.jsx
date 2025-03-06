@@ -1,8 +1,13 @@
- 
+import Banner from "../components/Banner"
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <section>
+      <Banner
+        label="BLOG"
+        className=""
+      />
+    </section>
   )
 }
 

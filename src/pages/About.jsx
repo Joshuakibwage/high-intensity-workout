@@ -36,7 +36,9 @@ const fitnessActivities = [
 const About = () => {
   return (
     <section className="">
-      <Banner />
+      <Banner 
+        label="ABOUT"
+      />
       <div className="container mx-auto">
           <div className="px-4 md:px-0">
             <p className="text-sm tracking-[0.4rem] text-gray-400">HIGH INTENSITY CLUB</p>
