@@ -1,8 +1,15 @@
- 
+import Banner from "../components/Banner"
 
 const Pricing = () => {
   return (
-    <div>Pricing</div>
+    <section>
+      <Banner 
+        label="PRICING"
+      />
+      <div className="container mx-auto py-16">
+
+      </div>
+    </section>
   )
 }
 

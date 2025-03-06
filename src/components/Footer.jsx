@@ -48,7 +48,7 @@ const Footer = () => {
               <li className="hover:text-gray-300">News & Blog</li>
             </ul>
           </div>
-          <div>
+          <div className="space-y-3">
           <p className="text-gray-300 font-bold">SUPPORT</p>
             <ul className="text-sm text-gray-500 space-y-2">
               <li className="hover:text-gray-300">FAQ</li>
@@ -57,7 +57,7 @@ const Footer = () => {
                
             </ul>
           </div>
-          <div>
+          <div className="space-y-3">
           <p className="text-gray-300 font-bold">PRICING</p>
             <ul className="text-sm text-gray-500 space-y-2">
               <li className="hover:text-gray-300">Basic Plan</li>
@@ -67,6 +67,11 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="border-t border-gray-800">
+        <p className="py-3 text-gray-400 text-center text-sm">
+          &copy; {new Date().getFullYear()} High Intensity WorkOut
+        </p>
       </div>
     </footer>
   )
