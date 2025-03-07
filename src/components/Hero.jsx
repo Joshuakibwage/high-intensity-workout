@@ -55,23 +55,7 @@ const Hero = () => {
             </div>
             
         </div>
-        {/* <div className="container mx-auto py-20 flex flex-col md:flex-row gap-6">
-           
-            {/* <div className="space-y-8 md:w-[50%] w-full order-2 md:order-1 px-8 md:px-0">
-                
-
-
-
-               
-            </div>
-            <div className="w-full md:w-[55%] order-1 md:order-2">
-                <img 
-                    src={heroImage} 
-                    alt="hero image" 
-                    className="w-full"
-                />
-            </div> */}
-        {/* </div> */} 
+        
     </section>
     
       
