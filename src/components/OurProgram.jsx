@@ -51,7 +51,8 @@ const OurProgram = () => {
                
                {
                 fitnessActivities.map(({id, description, title, icon}) => (
-                    <div key={id} className="border-t-1 border-secondary space-y-2">
+                    <div key={id} className="border-t-1 border-secondary space-y-2 hover:-translate-y-1
+                    transition-all delay-200 ease-in-out">
                         <p className="pt-10">{icon}</p>
                         <p className="font-semibold text-gray-300">{title}</p>
                         <p className="text-sm text-gray-400">{description}</p>

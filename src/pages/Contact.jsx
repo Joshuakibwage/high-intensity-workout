@@ -1,8 +1,12 @@
- 
+import Banner from "../components/Banner"
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <section>
+      <Banner 
+        label="Contact"
+      />
+    </section>
   )
 }
 

@@ -14,7 +14,7 @@ const Pricing = () => {
 
       <div className="relative">
         <img 
-          src="src/components/pricing-image.jpg" 
+          src="src/assets/pricing-image.jpg" 
           alt="background image" 
           className="w-full h-[400px] object-cover"
         />

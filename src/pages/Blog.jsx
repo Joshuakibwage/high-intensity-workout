@@ -4,7 +4,7 @@ const Blog = () => {
   return (
     <section>
       <Banner
-        label="BLOG"
+        label="Fitness News"
         className=""
       />
     </section>

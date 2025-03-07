@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <section>
         <div className="container mx-auto py-8 md:py-24 px-8 md:px-0">
-            <div className="flex justify-center flex-col items-center">
+            <div className="">
                 <div>
                     <h2 className="font-inter text-4xl font-bold text-gray-300">
                         Testimonials

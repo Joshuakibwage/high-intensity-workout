@@ -44,15 +44,15 @@ const PricingCard = () => {
           <p>$<span className="font-semibold text-gray-300 text-7xl">299</span>99 /Month</p>
         </div>
         <div className="flex items-center gap-2">
-          <FaCheck className="text-primary"/>
+          <FaCheck className="text-gray-200"/>
           <p className="text-gray-300">May indulgence difficulty</p>
         </div>
         <div className="flex items-center gap-2">
-          <FaCheck className="text-primary"/>
+          <FaCheck className="text-gray-200"/>
           <p className="text-gray-300">Am Increasing at contrasted</p>
         </div>
         <div className="flex items-center gap-2">
-          <FaCheck className="text-primary"/>
+          <FaCheck className="text-gray-200"/>
           <p className="text-gray-300">possession for thoroughly remarkable</p>
         </div>
          <Button 
